@@ -1,0 +1,52 @@
+site_name: crud-fastapi-postgress-streamlit
+repo_url: https://github.com/douglasaturnino/crud-fastapi-postgress-streamlit
+repo_name: douglasaturnino/crud-fastapi-postgress-streamlit
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.top
+  options:
+    show_root_heading: true
+    show_root_full_path: false
+    
+  palette:
+    - scheme: slate
+      primary: 'red'
+      accent: 'pink'
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: dark
+      primary: 'red'
+      accent: 'pink'
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
+
+nav:
+  - index.md
+  - Backend: 
+    - crud: backend/crud.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - autorefs
+  - mkdocstrings
+  - gen-files:
+      scripts:
+        - docs/gen_home_page.py
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/douglasaturnino/crud-fastapi-postgress-streamlit

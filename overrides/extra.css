@@ -1,0 +1,27 @@
+/* Ajuste da cor de fundo do cabeçalho */
+.md-header {
+    background-color: #e91e63;
+    color: #ffffff;
+}
+
+/* Ajuste da cor do texto dos links na barra lateral */
+.md-nav__link {
+    color: #ffffff;
+}
+
+/* Ajuste do fundo da barra lateral */
+.md-sidebar {
+    background-color: #212121;
+}
+
+/* Estilo para os blocos de código */
+.md-typeset pre,
+.md-typeset code {
+    background-color: #2e2e2e;
+    color: #ffffff;
+}
+
+/* Estilo para blocos de código com sombra */
+.md-typeset .highlight {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
