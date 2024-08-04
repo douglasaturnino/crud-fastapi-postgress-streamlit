@@ -28,6 +28,8 @@ docker-compose up -d --build
 │   └── schemas.py
 ├── docker-compose.yml
 ├── docs
+│   ├── backend
+│   │   └── crud.md
 │   └── gen_home_page.py
 ├── frontend
 │   ├── app.py
@@ -63,6 +65,7 @@ Arquivo de configuração para Docker Compose, que define os serviços necessár
 
 Esta pasta contém documentação e scripts relacionados ao projeto.
 
+- **`backend/crud.md`**: Documentação específica sobre as operações CRUD implementadas no backend.
 - **`gen_home_page.py`**: Script para gerar uma página inicial para a documentação.
 
 ### `frontend/`
