@@ -1,3 +1,1 @@
-# crud
-
 ::: backend.crud

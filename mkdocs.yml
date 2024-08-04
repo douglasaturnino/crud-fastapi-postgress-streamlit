@@ -32,7 +32,9 @@ theme:
 nav:
   - index.md
   - Backend: 
-    - crud: backend/crud.md
+    - CRUD: backend/crud.md
+    - Database: backend/database.md
+    - Models: backend/models.md
 
 markdown_extensions:
   - pymdownx.highlight
@@ -41,7 +43,13 @@ markdown_extensions:
 plugins:
   - search
   - autorefs
-  - mkdocstrings
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_symbol_type_heading: true
+            show_symbol_type_toc: true
+            show_root_heading: true
   - gen-files:
       scripts:
         - docs/gen_home_page.py

@@ -13,8 +13,26 @@ class CategoriaBase(Enum):
 
 
 class ProductModel(Base):
-    __tablename__ = "products"  # esse será o nome da tabela
+    """
+    Modelo SQLAlchemy para a entidade de produtos.
 
+    Esta classe representa um produto armazenado no banco de dados.
+
+    Parameters:
+        id (int): Identificador único do produto.
+        name (str): Nome do produto.
+        description (str): Descrição do produto.
+        price (float): Preço do produto.
+        categoria (str): Categoria do produto, escolhida a partir de `CategoriaBase`.
+        email_fornecedor (str): E-mail do fornecedor do produto.
+        created_at (DateTime): Data e hora de criação do registro, definido automaticamente.
+
+    Methods:
+        __repr__():
+            Retorna uma representação de string do objeto `ProductModel`.
+    """
+
+    __tablename__ = "products"  # esse será o nome da tabela
     id = Column(Integer, primary_key=True)
     name = Column(String)
     description = Column(String)
