@@ -1,3 +1,21 @@
+"""
+Este módulo fornece operações CRUD (Create, Read, Update, Delete) para a entidade de produto.
+
+Utiliza SQLAlchemy para interagir com o banco de dados e manipular objetos `ProductModel`.
+
+Methods:
+    get_product(db, product_id): Retorna um produto específico com base no ID fornecido.
+
+    get_products(db): Retorna todos os produtos presentes no banco de dados.
+
+    create_product(db, product): Cria um novo produto e o adiciona ao banco de dados.
+
+    delete_product(db, product_id): Deleta um produto do banco de dados com base no ID fornecido.
+
+    update_product(db, product_id, product): Atualiza um produto existente com base no ID fornecido.
+
+"""
+
 from sqlalchemy.orm import Session
 from schemas import ProductUpdate, ProductCreate
 from models import ProductModel
