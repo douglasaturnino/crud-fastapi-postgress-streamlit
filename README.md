@@ -29,7 +29,10 @@ docker-compose up -d --build
 ├── docker-compose.yml
 ├── docs
 │   ├── backend
-│   │   └── crud.md
+│   │   ├── crud.md
+│   │   ├── database.md
+│   │   ├── models.md
+│   │   └── router.md
 │   └── gen_home_page.py
 ├── frontend
 │   ├── app.py
@@ -66,6 +69,9 @@ Arquivo de configuração para Docker Compose, que define os serviços necessár
 Esta pasta contém documentação e scripts relacionados ao projeto.
 
 - **`backend/crud.md`**: Documentação específica sobre as operações CRUD implementadas no backend.
+- **`backend/databese.md`**: Módulo de Configuração do Banco de Dados.
+- **`backend/models.md`**: Modelo SQLAlchemy para a entidade de produtos.
+- **`backend/router.md`**: Módulo de rotas FastAPI para operações CRUD de produtos.
 - **`gen_home_page.py`**: Script para gerar uma página inicial para a documentação.
 
 ### `frontend/`
@@ -109,6 +115,3 @@ Contribuições são bem-vindas! Para contribuir:
 4. Envie para o repositório remoto (`git push origin feature/nova-funcionalidade`).
 5. Abra um Pull Request.
 
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).

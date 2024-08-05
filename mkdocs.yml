@@ -35,6 +35,7 @@ nav:
     - CRUD: backend/crud.md
     - Database: backend/database.md
     - Models: backend/models.md
+    - Router: backend/router.md
 
 markdown_extensions:
   - pymdownx.highlight
