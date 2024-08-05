@@ -35,6 +35,7 @@ docker-compose up -d --build
 │   │   ├── router.md
 │   │   └── schemas.md
 │   ├── frontend
+│   │   ├── app.md
 │   │   └── produto.md
 │   └── gen_home_page.py
 ├── frontend
@@ -77,6 +78,7 @@ Esta pasta contém documentação e scripts relacionados ao projeto.
 - **`backend/models.md`**: Documentação específica sobre SQLAlchemy para a entidade de produtos.
 - **`backend/router.md`**: Documentação específica sobre as rotas FastAPI para operações CRUD de produtos.
 - **`backend/schemas.md`**: Documentação específica sobre modelos Pydantic para produtos com categorias e informações básicas.
+- **`frontend/app.md`**: Documentação específica sobre aplicação Streamlit
 - **`frontend/produto.md`**:Documentação específica sobre o backend do produto
 - **`gen_home_page.py`**: Script para gerar uma página inicial para a documentação.
 

@@ -38,6 +38,7 @@ nav:
     - Router: backend/router.md
     - Schemas: backend/schemas.md
   - Frontend:
+    - App: frontend/app.md
     - Produto: frontend/produto.md
 
 markdown_extensions:
