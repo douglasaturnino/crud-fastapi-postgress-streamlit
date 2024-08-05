@@ -34,11 +34,14 @@ docker-compose up -d --build
 │   │   ├── models.md
 │   │   ├── router.md
 │   │   └── schemas.md
+│   ├── frontend
+│   │   └── produto.md
 │   └── gen_home_page.py
 ├── frontend
 │   ├── app.py
 │   ├── Dockerfile
 │   ├── logo.png
+│   ├── produto.py
 │   └── requirements.txt
 ├── mkdocs.yml
 ├── overrides
@@ -70,17 +73,19 @@ Arquivo de configuração para Docker Compose, que define os serviços necessár
 Esta pasta contém documentação e scripts relacionados ao projeto.
 
 - **`backend/crud.md`**: Documentação específica sobre as operações CRUD implementadas no backend.
-- **`backend/databese.md`**: Módulo de Configuração do Banco de Dados.
-- **`backend/models.md`**: Modelo SQLAlchemy para a entidade de produtos.
-- **`backend/router.md`**: Módulo de rotas FastAPI para operações CRUD de produtos.
-- **`backend/schemas.md`**: Módulo define modelos Pydantic para produtos com categorias e informações básicas.
+- **`backend/databese.md`**: Documentação específica sobre do Banco de Dados.
+- **`backend/models.md`**: Documentação específica sobre SQLAlchemy para a entidade de produtos.
+- **`backend/router.md`**: Documentação específica sobre as rotas FastAPI para operações CRUD de produtos.
+- **`backend/schemas.md`**: Documentação específica sobre modelos Pydantic para produtos com categorias e informações básicas.
+- **`frontend/produto.md`**:Documentação específica sobre o backend do produto
 - **`gen_home_page.py`**: Script para gerar uma página inicial para a documentação.
 
 ### `frontend/`
 
 Contém arquivos relacionados ao frontend da aplicação, desenvolvido com Streamlit.
 
-- **`app.py`**: O ponto de entrada da aplicação Streamlit, que define a interface do usuário e interage com o backend.
+- **`app.py`**: O ponto de entrada da aplicação Streamlit, que define a interface do usuário.
+- **`produto.py`**: Módulo que interage com o backend do produto.
 - **`Dockerfile`**: Define a configuração do Docker para o frontend, incluindo a instalação de dependências e configuração do ambiente.
 - **`logo.png`**: Imagem do logotipo usada na interface do usuário.
 - **`requirements.txt`**: Lista as dependências Python necessárias para o frontend, que serão instaladas durante a construção do Docker.
@@ -106,14 +111,4 @@ Arquivo de configuração do Poetry que define as dependências do projeto, conf
 ### `README.md`
 
 Documento principal do projeto que fornece uma visão geral do projeto, instruções de instalação, uso e informações adicionais.
-
-## Contribuição
-
-Contribuições são bem-vindas! Para contribuir:
-
-1. Faça um fork do repositório.
-2. Crie uma branch para suas modificações (`git checkout -b feature/nova-funcionalidade`).
-3. Faça commit das suas alterações (`git commit -am 'Adiciona nova funcionalidade'`).
-4. Envie para o repositório remoto (`git push origin feature/nova-funcionalidade`).
-5. Abra um Pull Request.
 

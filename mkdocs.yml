@@ -37,6 +37,8 @@ nav:
     - Models: backend/models.md
     - Router: backend/router.md
     - Schemas: backend/schemas.md
+  - Frontend:
+    - Produto: frontend/produto.md
 
 markdown_extensions:
   - pymdownx.highlight
