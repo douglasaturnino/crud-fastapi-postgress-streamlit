@@ -32,7 +32,8 @@ docker-compose up -d --build
 │   │   ├── crud.md
 │   │   ├── database.md
 │   │   ├── models.md
-│   │   └── router.md
+│   │   ├── router.md
+│   │   └── schemas.md
 │   └── gen_home_page.py
 ├── frontend
 │   ├── app.py
@@ -72,6 +73,7 @@ Esta pasta contém documentação e scripts relacionados ao projeto.
 - **`backend/databese.md`**: Módulo de Configuração do Banco de Dados.
 - **`backend/models.md`**: Modelo SQLAlchemy para a entidade de produtos.
 - **`backend/router.md`**: Módulo de rotas FastAPI para operações CRUD de produtos.
+- **`backend/schemas.md`**: Módulo define modelos Pydantic para produtos com categorias e informações básicas.
 - **`gen_home_page.py`**: Script para gerar uma página inicial para a documentação.
 
 ### `frontend/`
