@@ -1,7 +1,7 @@
 site_name: crud-fastapi-postgress-streamlit
 repo_url: https://github.com/douglasaturnino/crud-fastapi-postgress-streamlit
 repo_name: douglasaturnino/crud-fastapi-postgress-streamlit
-dev_addr: 127.0.0.1:8081
+dev_addr: 0.0.0.0:8081
 
 theme:
   name: material
@@ -32,6 +32,7 @@ theme:
 
 nav:
   - index.md
+  - Modo de Uso: uso.md
   - Backend: 
     - CRUD: backend/crud.md
     - Database: backend/database.md

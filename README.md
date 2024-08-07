@@ -12,6 +12,7 @@ docker-compose up -d --build
 
 - **Frontend**: Acesse a aplicação Streamlit no endereço [http://localhost:8501](http://localhost:8501).
 - **Backend**: Acesse a documentação da API FastAPI em [http://localhost:8000/docs](http://localhost:8000/docs).
+- **Documentação**: Acesse a documentação do projeto em [[http://localhost:8081](http://localhost:8081)]
 
 ## Estrutura de Pastas e Arquivos
 
@@ -37,7 +38,8 @@ docker-compose up -d --build
 │   ├── frontend
 │   │   ├── app.md
 │   │   └── produto.md
-│   └── gen_home_page.py
+│   ├── gen_home_page.py
+│   └── uso.md
 ├── frontend
 │   ├── app.py
 │   ├── Dockerfile
