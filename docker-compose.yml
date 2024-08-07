@@ -35,10 +35,13 @@ services:
       - "8501:8501"
     networks:
       - mynetwork
+
   mkdocs:
     build:
       context: .
       dockerfile: docs/Dockerfile
+    volumes:
+      - .:/docs
     ports:
       - "8081:8000"
     networks:

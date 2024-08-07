@@ -35,6 +35,7 @@ docker-compose up -d --build
 │   │   ├── models.md
 │   │   ├── router.md
 │   │   └── schemas.md
+│   ├── Dockerfile
 │   ├── frontend
 │   │   ├── app.md
 │   │   └── produto.md
@@ -83,6 +84,7 @@ Esta pasta contém documentação e scripts relacionados ao projeto.
 - **`frontend/app.md`**: Documentação específica sobre aplicação Streamlit
 - **`frontend/produto.md`**:Documentação específica sobre o backend do produto
 - **`gen_home_page.py`**: Script para gerar uma página inicial para a documentação.
+- **`uso.md`**: Documentação específica para o uso do projeto.
 
 ### `frontend/`
 
